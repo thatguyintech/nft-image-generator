@@ -39,3 +39,5 @@ jupyter notebook
 8. First time you run notebook, it will ask you to install ipykernel, accept this.
  
 9. If the program executes successfully, it will output all the generated images to the /images folder, and the metadata to the /metadata folder. The filenames will refer to tokenIds. 
+
+10. The program uses trait layers from the attributes folder to generate your image. The attributes folder should contain sub-folders with each of the traits, prefixed with the number of the layer order it is in, with "1" as the lowest layer and incrementing upwards for higher layers. The folder organization should match the attribute dictionary initialized at the top of the notebook file.
